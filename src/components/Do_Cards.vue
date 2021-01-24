@@ -10,7 +10,6 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Rem quae velit dolores rerum, facilis accusantium laudantium! 
         Recusandae, amet molestias autem eaque neque ratione porro 
-        id rerum illum. Dolor, sed ea.
     </b-card-text>
   </b-card>
 </template>

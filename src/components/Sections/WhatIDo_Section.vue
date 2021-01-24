@@ -67,7 +67,7 @@ export default {
 }
 #myCard1{
   width: 50%;
-  height: 80%;
+  height: 85%;
   position: absolute;
   top: 5%;
   left: 15%;
@@ -75,7 +75,7 @@ export default {
 }
 #myCard2{
   width: 50%;
-  height: 80%;
+  height: 85%;
   position: absolute;
   top: 55%;
   left: 55%;
@@ -83,7 +83,7 @@ export default {
 }
 #myCard3{
   width: 50%;
-  height: 80%;
+  height: 85%;
   position: absolute;
   top: 110%;
   left: 10%;

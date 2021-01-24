@@ -1,19 +1,20 @@
 <template>
-  <div class="home">
-    <Titel_Section msg="Welcome to Your Vue.js App" />
-    <WhatIDo_Section msg="Welcome to Your Vue.js App" />
-    <Resume_Section msg="Welcome to Your Vue.js App" />
+  <vue-scroll-snap>
+    <Titel_Section class="item"/>
+    <WhatIDo_Section class="item"/>
+    <Resume_Section class="item"/>
     <b-container fluid>
-      <AGuidetoQt6_Project msg="Project 1" />
-      <Cherry_Project msg="Project 2" />
+      <AGuidetoQt6_Project msg="Project 1" class="item"/>
+      <Cherry_Project msg="Project 2" class="item"/>
     </b-container>
-    <Disclaimer msg="Welcome to Your Vue.js App" />
-    <Contact_Section msg="Welcome to Your Vue.js App" />
-  </div>
+    <Disclaimer msg="Welcome to Your Vue.js App" class="item"/>
+    <Contact_Section msg="Welcome to Your Vue.js App" class="item"/>
+  </vue-scroll-snap>
 </template>
 
 <script>
 // @ is an alias to /src
+import VueScrollSnap from "vue-scroll-snap";
 import Titel_Section from "@/components/Sections/Titel_Section.vue";
 import WhatIDo_Section from "@/components/Sections/WhatIDo_Section.vue";
 import Resume_Section from "@/components/Sections/Resume_Section.vue";
@@ -25,6 +26,7 @@ import Cherry_Project from "@/components/Projects/Cherry_Project.vue";
 export default {
   name: "Home",
   components: {
+    VueScrollSnap,
     Titel_Section,
     WhatIDo_Section,
     Resume_Section,
@@ -35,3 +37,13 @@ export default {
   }
 };
 </script>
+<style>
+.scroll-snap-container {
+  height: 100vh;
+  width: 100%;
+}
+.item {
+  /* Set the minimum height of the items to be the same as the height of the scroll-snap-container.*/
+  min-height: 100vh;
+}
+</style>

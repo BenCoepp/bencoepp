@@ -12,7 +12,8 @@
     "core-js": "^3.6.5",
     "firebase-tools": "^9.2.2",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-scroll-snap": "^0.1.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
