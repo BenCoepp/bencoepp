@@ -4,7 +4,7 @@
       <b-col class="col">
         <Do_Cards id="myCard1"/>
         <Do_Cards id="myCard2"/>
-        <Do_Cards id="myCard1"/>
+        <Do_Cards id="myCard3"/>
       </b-col>
       <b-col class="col">
         <b-card
@@ -15,9 +15,11 @@
           <b-card-text id="titel1">What</b-card-text>
           <b-card-text id="titel2">I DO</b-card-text>
           <b-card-text id="titelText">
-            Hello there on my Portfolio, I hope you will find anything interesting here.
-            You can find my books, tutorials and projects here so do not hesitate and jump right in.
-            Also if you want to contact me go ahead. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel dolor in repellendus pariatur totam facere, 
+            magni repellat debitis odit maxime, rerum quisquam 
+            nam delectus qui quos molestias perspiciatis, 
+            perferendis quas.
           </b-card-text>
         </b-card>
       </b-col>
@@ -64,18 +66,26 @@ export default {
   font-weight: bold;
 }
 #myCard1{
-  width: 35%;
-  height: 50%;
+  width: 50%;
+  height: 80%;
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 5%;
+  left: 15%;
+  z-index: 2;
 }
 #myCard2{
-  width: 35%;
-  height: 50%;
+  width: 50%;
+  height: 80%;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 55%;
   z-index: 1;
+}
+#myCard3{
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 110%;
+  left: 10%;
 }
 </style>
