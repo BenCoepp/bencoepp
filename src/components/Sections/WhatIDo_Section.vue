@@ -2,9 +2,11 @@
   <b-container fluid class="doWrapper">
     <b-row>
       <b-col class="col">
-        <Do_Cards id="myCard1"/>
-        <Do_Cards id="myCard2"/>
-        <Do_Cards id="myCard3"/>
+        <b-col id="cardCol">
+          <b-col><Do_Cards id="myCard1"/></b-col>
+          <b-col><Do_Cards id="myCard2"/></b-col>
+          <b-col><Do_Cards id="myCard3"/></b-col>
+        </b-col>
       </b-col>
       <b-col class="col">
         <b-card
@@ -66,26 +68,21 @@ export default {
   font-weight: bold;
 }
 #myCard1{
-  width: 50%;
-  height: 85%;
-  position: absolute;
-  top: 5%;
-  left: 15%;
-  z-index: 2;
+  width: 90%;
+  height: 20%;
+  margin-bottom: 1em;
 }
 #myCard2{
-  width: 50%;
-  height: 85%;
-  position: absolute;
-  top: 55%;
-  left: 55%;
-  z-index: 1;
+  width: 90%;
+  height: 20%;
+  margin-bottom: 1em;
 }
 #myCard3{
-  width: 50%;
-  height: 85%;
-  position: absolute;
-  top: 110%;
-  left: 10%;
+  width: 90%;
+  height: 20%;
+  margin-bottom: 1em;
+}
+#cardCol{
+  margin: 15%;
 }
 </style>
