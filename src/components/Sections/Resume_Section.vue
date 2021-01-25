@@ -1,5 +1,5 @@
 <template>
-  <b-container class="resumeWrapper">
+  <b-container fluid class="resumeWrapper">
     <b-row>
       <b-col>
         <b-card
@@ -18,8 +18,8 @@
           </b-card-text>
         </b-card>
       </b-col>
-      <b-col>
-        
+      <b-col col lg="4">
+        <b-img src="@/assets/exampleImg.png" fluid alt="Responsive image" id="imgTitel"></b-img>
       </b-col>
     </b-row>
   </b-container>
@@ -37,13 +37,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .resumeWrapper{
-  width: 100%;
   height: 100vh;
   background-color: #3e5a79;
+  margin: 0;
 }
 #resumeCard{
-  //width: 70%;
-  margin: 15%;
+  width: 60%;
+  margin: 20%;
   background-color: transparent;
   border: 0;
 }
@@ -61,5 +61,10 @@ export default {
 #titelText{
   color: white;
   font-weight: bold;
+}
+#imgTitel{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
 }
 </style>
