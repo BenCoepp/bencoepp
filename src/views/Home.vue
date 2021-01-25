@@ -41,6 +41,11 @@ export default {
 .scroll-snap-container {
   height: 100vh;
   width: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scroll-snap-container::-webkit-scrollbar {
+  display: none;
 }
 .item {
   /* Set the minimum height of the items to be the same as the height of the scroll-snap-container.*/
