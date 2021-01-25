@@ -1,6 +1,6 @@
 <template>
   <b-container fluid class="disclaimerWrapper">
-
+    
   </b-container>
 </template>
 
