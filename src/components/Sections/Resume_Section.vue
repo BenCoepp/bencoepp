@@ -7,8 +7,8 @@
           class="mb-2"
           id="resumeCard"
         >
-          <b-card-text id="titel1">What</b-card-text>
-          <b-card-text id="titel2">I DO</b-card-text>
+          <b-card-text id="titel1">My</b-card-text>
+          <b-card-text id="titel2">Resume</b-card-text>
           <b-card-text id="titelText">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Vel dolor in repellendus pariatur totam facere, 
