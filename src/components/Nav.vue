@@ -1,18 +1,24 @@
 <template>
-  <fixed-header>
-    <div class="navbar">
-      Your Content
-    </div>
-  </fixed-header>
+  <b-navbar toggleable="lg" type="dark" class="nav">
+    <b-navbar-brand href="#" id="brandTitel">
+      <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="Kitten">
+      Ben Coepp
+    </b-navbar-brand>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <router-link to="/about">About</router-link>
+        <b-nav-item href="#" disabled>Disabled</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <script>
-import FixedHeader from 'vue-fixed-header'
 
 export default {
   name: "Nav",
   components: {
-    FixedHeader
   },
   props: {
     msg: String
@@ -22,13 +28,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.navbar.vue-fixed-header--isFixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-}
-.navbar{
+.nav{
   background-color: #3e5a79;
+}
+#brandTitel{
+  font-weight: bold;
 }
 </style>
