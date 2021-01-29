@@ -12,6 +12,7 @@
     "core-js": "^3.6.5",
     "firebase-tools": "^9.2.2",
     "vue": "^2.6.11",
+    "vue-fixed-header": "^3.2.15",
     "vue-router": "^3.2.0",
     "vue-scroll-snap": "^0.1.10"
   },
