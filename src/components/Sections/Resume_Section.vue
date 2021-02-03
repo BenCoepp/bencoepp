@@ -16,6 +16,9 @@
             nam delectus qui quos molestias perspiciatis, 
             perferendis quas.
           </b-card-text>
+          <b-button id="downloadResumeBt">
+            <a target="blank" id="downloadResumeBt" href="https://firebasestorage.googleapis.com/v0/b/ben-coepp.appspot.com/o/Lebenslauf.pdf?alt=media&token=58a18c73-5b18-40f0-85c5-4491d3a8f272">Download</a>
+          </b-button>
         </b-card>
       </b-col>
       <b-col col lg="4">
@@ -66,5 +69,12 @@ export default {
   margin-top: 10%;
   margin-bottom: 10%;
   width: 60%;
+}
+#downloadResumeBt{
+  background-color: #FD7E35;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
 }
 </style>
