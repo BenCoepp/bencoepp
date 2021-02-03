@@ -3,7 +3,7 @@
     <b-row>
       <b-col class="col">
         <b-col id="cardCol">
-          <b-col><Do_Cards id="myCard1"/></b-col>
+          <b-col><Do_Cards id="myCard1" :titleD="aa"/></b-col>
           <b-col><Do_Cards id="myCard2"/></b-col>
           <b-col><Do_Cards id="myCard3"/></b-col>
         </b-col>

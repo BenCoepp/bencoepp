@@ -42,8 +42,8 @@
           max-rows="3"
         ></b-form-textarea>
       </b-form-group>
-      <b-button type="submit" variant="primary" class="formButton">Submit</b-button>
-      <b-button type="reset" variant="danger" class="formButton">Reset</b-button>
+      <b-button type="submit" variant="primary" class="formButton" id="subBt">Submit</b-button>
+      <b-button type="reset" variant="danger" class="formButton" id="resBt">Reset</b-button>
     </b-form>
     <b-card class="mt-3" header="Form Data Result">
       <pre class="m-0">{{ form }}</pre>
@@ -101,5 +101,11 @@
 }
 .formButton{
   margin-right: 1em;
+}
+#subBt{
+  background-color: black;
+}
+#resBt{
+  background-color: black;
 }
 </style>

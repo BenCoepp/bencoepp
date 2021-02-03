@@ -1,8 +1,8 @@
 <template>
   <b-card 
-    title="{this.titel}"
     id="doCard"
     >
+    <b-card-text>{{titelD}}</b-card-text>
     <b-card-text>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Rem quae velit dolores rerum, facilis accusantium laudantium! 
@@ -19,27 +19,30 @@
 export default {
   name: "Do_Card",
   props:{
-      titel: String,
-  }
+      titelD: String,
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #b1{
-  background-color: orange;
+  background-color: #a1c181;
+  color: black;
   font-size: 20px;
   display: inline-flex;
   margin-left: 10px;
 }
 #b2{
-  background-color: red;
+  background-color: #78d5e3;
+  color: black;
   font-size: 20px;
   display: inline-flex;
   margin-left: 10px;
 }
 #b3{
-  background-color: blue;
+  background-color: #b493a5;
+  color: black;
   font-size: 20px;
   display: inline-flex;
   margin-left: 10px;
