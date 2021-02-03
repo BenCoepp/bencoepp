@@ -2,9 +2,12 @@
   <b-container fluid class="contactWrapper">
     <b-row>
       <b-col>
-        <b-row>
-          <h1>Let's get in touch</h1>
-          <h2>You can contact me when ever you want just go ahead</h2>
+        <b-row id="headRow">
+          <h1 style="color: white; font-weight: bold; font-size: 55px">Let's get in touch</h1>
+          <h3 style="color: white; font-weight: bold;">
+            You can <h3 style="color: #fd7e35; display: inline-flex; font-weight: bold;">CONTACT ME</h3> 
+            when ever you want just go ahead
+          </h3>
         </b-row>
         <b-row>
           <b-col id="telCardCol">
@@ -28,17 +31,22 @@
         <b-icon-triangle-fill rotate="-90" id="arrawIcon"></b-icon-triangle-fill>
       </b-col>
       <b-col id="rightColContact">
-         <b-icon-triangle-fill rotate="-90" id="arrawIcon"></b-icon-triangle-fill>
+        <b-icon-triangle-fill rotate="-90" id="arrawIcon"></b-icon-triangle-fill>
+        <Contact_Form/>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
+import Contact_Form from '../Contact_Form'
 export default {
   name: "Contact_Section",
   props: {
     msg: String
+  },
+  components:{
+    Contact_Form
   }
 };
 </script>
@@ -51,13 +59,13 @@ export default {
   margin: 0;
 }
 #telCardCol{
-  margin: 10%;
+  margin: 5%;
 }
 .telCard{
-  float: right;
+  float: left;
   margin-bottom: 1em;
-  width: 60%;
   background-color: #3e5a79;
+  width: 70%;
   color: white;
   -webkit-box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82); 
   box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82);
@@ -78,5 +86,10 @@ export default {
   top: 10%;
   left: 96%;
   color: #fd7e35;
+}
+#headRow{
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 75%;
 }
 </style>

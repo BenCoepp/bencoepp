@@ -2,7 +2,7 @@
   <b-navbar toggleable="lg" type="dark" class="nav">
     <b-navbar-brand href="#" id="brandTitel">
       <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="Kitten">
-      <router-link to="/" class="rLink">Ben Coepp</router-link>
+      <router-link to="/" id="brandTitel">Ben Coepp</router-link>
     </b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
@@ -33,9 +33,12 @@ export default {
 }
 #brandTitel{
   font-weight: bold;
+  color: white;
+  margin-left: 10px;
 }
 #brandTitel:hover{
   color: #fd7e35;
+  text-decoration: none;
 }
 .rLink{
   margin-right: 1em;
