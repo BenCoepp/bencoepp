@@ -13,18 +13,18 @@
           <b-col id="telCardCol">
              <b-card class="telCard">
               <b-icon-telephone id="telCardIcon"></b-icon-telephone>
-              <b-card-text>Please only use when contacting for buying reasons</b-card-text>
+              <b-card-text>Use this when you have extreme problems</b-card-text>
               <b-card-text>0173 4066728</b-card-text>
             </b-card>
             <b-card class="telCard">
               <b-icon-text-left id="telCardIcon"></b-icon-text-left>
-              <b-card-text>Please only use when contacting for buying reasons</b-card-text>
-              <b-card-text>0173 4066728</b-card-text>
+              <b-card-text>Any question that you might have write me here</b-card-text>
+              <b-card-text>bencoepp@gmail.com</b-card-text>
             </b-card>
             <b-card class="telCard">
               <b-icon-emoji-sunglasses id="telCardIcon"></b-icon-emoji-sunglasses>
-              <b-card-text>Please only use when contacting for buying reasons</b-card-text>
-              <b-card-text>0173 4066728</b-card-text>
+              <b-card-text>Leave a Review here to show your support if you want</b-card-text>
+              <b-card-text>AMAZON LINK</b-card-text>
             </b-card>
           </b-col>
         </b-row>

@@ -20,8 +20,28 @@
       </b-col>
       <b-col>
         <b-col id="cardCol">
-          <b-col><Do_Cards id="myCard1"/></b-col>
-          <b-col><Do_Cards id="myCard2"/></b-col>
+          <b-col><Do_Cards id="myCard1"
+            titelD="Can you hire me?"
+            quality1="Sorry,"
+            quality2="No,"
+            quality3="Unfortanatly"
+            text="If you were looking to hire me for a Job, then I am sorry to 
+            inform you that I am currently under contract. This means that I
+            can not work for you. A Man can only know one Master. But you can 
+            still contact me consurning help, or if it is about a contract you 
+            want me to do."
+          /></b-col>
+          <b-col><Do_Cards id="myCard2"
+            titelD="What is this all for?"
+            quality1="Who am I"
+            quality2="My Work"
+            quality3="My Stuff"
+            text="The porpuse of this Website is to show you who I am, what
+            I do, and sell. I hope you you were able to find out a few things
+            about me. Also try to check out all the other things I do.
+            My mission is to educate and inform you about how to be a Developer,
+            there are a few ways to do this, but I hope I know the right one."
+          /></b-col>
         </b-col>
       </b-col>
     </b-row>

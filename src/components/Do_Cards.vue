@@ -2,16 +2,11 @@
   <b-card 
     id="doCard"
     >
-    <b-card-text>{{titelD}}</b-card-text>
-    <b-card-text>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Rem quae velit dolores rerum, facilis accusantium laudantium! 
-        Recusandae, amet molestias autem eaque neque ratione porro 
-    </b-card-text>
-    <b-avatar src="https://placekitten.com/300/300"></b-avatar>
-    <b-badge id="b1">Quality 1</b-badge>
-    <b-badge id="b2">Quality 1</b-badge>
-    <b-badge id="b3">Quality 1</b-badge>
+    <b-card-text id="titel">{{titelD}}</b-card-text>
+    <b-card-text id="text">{{text}}</b-card-text>
+    <b-badge id="b1">{{quality1}}</b-badge>
+    <b-badge id="b2">{{quality2}}</b-badge>
+    <b-badge id="b3">{{quality3}}</b-badge>
   </b-card>
 </template>
 
@@ -20,6 +15,10 @@ export default {
   name: "Do_Card",
   props:{
       titelD: String,
+      quality1: String,
+      quality2: String,
+      quality3: String,
+      text: String,
   },
 };
 </script>
@@ -31,20 +30,29 @@ export default {
   color: black;
   font-size: 20px;
   display: inline-flex;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 #b2{
   background-color: #78d5e3;
   color: black;
   font-size: 20px;
   display: inline-flex;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 #b3{
   background-color: #b493a5;
   color: black;
   font-size: 20px;
   display: inline-flex;
-  margin-left: 10px;
+  margin-right: 10px;
+}
+#titel{
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+#text{
+  font-size: 16px;
 }
 </style>
