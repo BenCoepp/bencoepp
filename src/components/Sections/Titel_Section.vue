@@ -20,7 +20,7 @@
         </b-card>
       </b-col>
       <b-col class="col">
-        <b-img src="@/assets/exampleImg.png" fluid alt="Responsive image" id="imgTitel"></b-img>
+        <img src="@/assets/exampleImg.png" alt="Titel Image" id="titelImg">
       </b-col>
     </b-row>
   </b-container>
@@ -78,5 +78,11 @@ export default {
   margin-top: 10%;
   margin-bottom: 10%;
   width: 60%;
+}
+#titelImg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 80%;
 }
 </style>
