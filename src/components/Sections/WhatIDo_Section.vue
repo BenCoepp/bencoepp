@@ -91,11 +91,15 @@ export default {
   width: 90%;
   height: 20%;
   margin-bottom: 1em;
+  -webkit-box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82); 
+  box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82);
 }
 #myCard2{
   width: 90%;
   height: 20%;
   margin-bottom: 1em;
+  -webkit-box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82); 
+  box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82);
 }
 #myCard3{
   width: 90%;

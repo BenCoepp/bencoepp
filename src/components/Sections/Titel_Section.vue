@@ -20,7 +20,7 @@
         </b-card>
       </b-col>
       <b-col class="col">
-        <img src="@/assets/exampleImg.png" alt="Titel Image" id="titelImg">
+        <img src="@/assets/titelImage.png" alt="Titel Image" id="titelImg">
       </b-col>
     </b-row>
   </b-container>
