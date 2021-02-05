@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="resumeWrapper">
     <b-row>
-      <b-col>
+      <b-col class="col">
         <b-card
           tag="article"
           class="mb-2"
@@ -10,19 +10,18 @@
           <b-card-text id="titel1">My</b-card-text>
           <b-card-text id="titel2">Resume</b-card-text>
           <b-card-text id="titelText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Vel dolor in repellendus pariatur totam facere, 
-            magni repellat debitis odit maxime, rerum quisquam 
-            nam delectus qui quos molestias perspiciatis, 
-            perferendis quas.
+            Want to know more about me? Well, here you can find my Resume, 
+            what school did I go to, what do I know and what experience do
+            I have. Because I am currently not for hire, this is not that
+            important, but you might want to take a look at it, so here it is.
           </b-card-text>
           <b-button id="downloadResumeBt">
             <a target="blank" id="downloadResumeBt" href="https://firebasestorage.googleapis.com/v0/b/ben-coepp.appspot.com/o/Lebenslauf.pdf?alt=media&token=58a18c73-5b18-40f0-85c5-4491d3a8f272">Download</a>
           </b-button>
         </b-card>
       </b-col>
-      <b-col col lg="4">
-        <b-img src="@/assets/exampleImg.png" fluid alt="Responsive image" id="imgTitel"></b-img>
+      <b-col class="col">
+        <img src="@/assets/resumeImage.png" alt="Titel Image" id="titelImg">
       </b-col>
     </b-row>
   </b-container>
@@ -76,5 +75,16 @@ export default {
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
+}
+#titelImg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 80%;
+}
+.col{
+  width: 100%;
+  height: 100vh;
+  background-color: #3e5a79;
 }
 </style>
