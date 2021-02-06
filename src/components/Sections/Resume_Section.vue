@@ -44,7 +44,7 @@ export default {
   margin: 0;
 }
 #resumeCard{
-  width: 60%;
+  width: 70%;
   margin: 12%;
   background-color: transparent;
   border: 0;

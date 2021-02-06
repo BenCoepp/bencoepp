@@ -3,7 +3,7 @@
     <vue-headful
       title="Ben Coepp"
       description="Ben Coepp - Portfolio"
-      image="@/assets/logo.png"
+      image="..\assets\logo.png"
     />
     <Nav/>
     <router-view />
