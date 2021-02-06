@@ -21,14 +21,15 @@
                 <b-list-group flush>
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         Name:
+                        <b-badge class="pPill">Ben Cöppicus | Ben Coepp</b-badge>
                     </b-list-group-item>
-
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         Age:
+                        <b-badge class="pPill">20</b-badge>
                     </b-list-group-item>
-
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         Country:
+                        <b-badge class="pPill">Germany</b-badge>
                     </b-list-group-item>
                 </b-list-group>
             </b-tab>
@@ -36,19 +37,19 @@
                 <b-list-group flush>
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         Java
-                        <b-badge variant="primary" pill>14</b-badge>
+                        <b-badge class="pPill">Intermediat</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         HTML / CSS / JavaScript
-                        <b-badge variant="primary" pill>2</b-badge>
+                        <b-badge class="pPill">Intermediat</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         Qt
-                        <b-badge variant="primary">1</b-badge>
+                        <b-badge class="pPill">Master</b-badge>
                     </b-list-group-item>
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
                         C++
-                        <b-badge variant="primary" pill>1</b-badge>
+                        <b-badge class="pPill">Intermediat</b-badge>
                     </b-list-group-item>
                 </b-list-group>
             </b-tab>
@@ -128,7 +129,7 @@ export default {
 .listItem{
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: white;
     background-color: transparent;
 }
 </style>

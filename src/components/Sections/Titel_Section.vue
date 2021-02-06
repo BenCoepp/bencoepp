@@ -68,9 +68,9 @@ export default {
   font-size: 20px;
   margin-right: 1em;
 }
-#badge1{background-color: #18BC9E;}
-#badge2{background-color: #fd7e35;}
-#badge3{background-color: #D23742;}
+#badge1{background-color: #a1c181;}
+#badge2{background-color: #78d5e3;}
+#badge3{background-color: #b493a5;}
 
 #imgTitel{
   margin-left: 20%;
