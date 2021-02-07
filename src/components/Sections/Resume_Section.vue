@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="resumeWrapper">
     <b-row>
-      <b-col class="col">
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <b-card
           tag="article"
           class="mb-2"
@@ -20,7 +20,7 @@
           </b-button>
         </b-card>
       </b-col>
-      <b-col class="col">
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <img src="@/assets/resumeImage.png" alt="Titel Image" id="titelImg">
       </b-col>
     </b-row>
@@ -38,6 +38,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@media only screen and (min-width: 600px) {
 .resumeWrapper{
   height: 100vh;
   background-color: #3e5a79;
@@ -82,9 +83,53 @@ export default {
   display: block;
   height: 80%;
 }
-.col{
+#col{
   width: 100%;
   height: 100vh;
   background-color: #3e5a79;
+}
+}
+@media only screen and (max-width: 600px) {
+.resumeWrapper{
+  height: 100vh;
+  background-color: #3e5a79;
+  margin: 0;
+}
+#col{
+  width: 100%;
+  background-color: #3e5a79;
+}
+#resumeCard{
+  background-color: transparent;
+  border: 0;
+}
+#titel1{
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#titel2{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #fd7e35;
+}
+#titelText{
+  color: white;
+  font-weight: bold;
+}
+#titelImg{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#downloadResumeBt{
+  background-color: #FD7E35;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
 }
 </style>

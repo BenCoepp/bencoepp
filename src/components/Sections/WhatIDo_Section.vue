@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="doWrapper">
     <b-row>
-      <b-col class="col">
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <b-col id="cardCol">
           <b-col><Do_Cards id="myCard1" 
             titelD="Developer"
@@ -29,7 +29,7 @@
           /></b-col>
         </b-col>
       </b-col>
-      <b-col class="col">
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <b-card
           tag="article"
           class="mb-2"
@@ -61,6 +61,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@media only screen and (min-width: 600px) {
 .doWrapper{
   width: 100%;
   height: 100vh;
@@ -106,5 +107,42 @@ export default {
 }
 #cardCol{
   margin: 15%;
+}
+}
+@media only screen and (max-width: 600px) {
+.doWrapper{
+  width: 100%;
+  padding-bottom: 8em;
+  background-color: #3e5a79;
+}
+#titelCard{
+background-color: transparent;
+border: 0;
+padding-bottom: 2em;
+}
+#titel1{
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#titel2{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #fd7e35;
+}
+#titelText{
+  color: white;
+  font-weight: bold;
+}
+#myCard1{
+  margin-bottom: 1em;
+}
+#myCard2{
+  margin-bottom: 1em;
+}
+#myCard3{
+  margin-bottom: 1em;
+}
 }
 </style>

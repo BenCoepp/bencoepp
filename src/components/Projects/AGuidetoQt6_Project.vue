@@ -13,7 +13,6 @@
                 <b-button id="buyBt">
                   <a target="blank" id="downloadResumeBt" href="https://firebasestorage.googleapis.com/v0/b/ben-coepp.appspot.com/o/Lebenslauf.pdf?alt=media&token=58a18c73-5b18-40f0-85c5-4491d3a8f272">Buy</a>
                 </b-button>
-                <b-button id="learnMoreBt" v-b-modal.problemModel>Problem ?</b-button>
               </b-button-group>
             </b-card-text>
             <b-card-text id="titel2">A Beginner's Guide to Qt</b-card-text>

@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="disclaimerWrapper">
     <b-row>
-      <b-col>
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <b-card
           tag="article"
           class="mb-2"
@@ -18,7 +18,7 @@
           </b-card-text>
         </b-card>
       </b-col>
-      <b-col>
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <b-col id="cardCol">
           <b-col><Do_Cards id="myCard1"
             titelD="Can you hire me?"
@@ -63,6 +63,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@media only screen and (min-width: 600px) {
 .disclaimerWrapper{
   height: 100vh;
   background-color: #3e5a79;
@@ -101,5 +102,39 @@ export default {
   width: 90%;
   height: 20%;
   margin-bottom: 1em;
+}
+}
+@media only screen and (max-width: 600px) {
+.disclaimerWrapper{
+  padding-bottom: 8em;
+  background-color: #3e5a79;
+  margin: 0;
+}
+#resumeCard{
+  background-color: transparent;
+  border: 0;
+}
+#titel1{
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#titel2{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #fd7e35;
+}
+#titelText{
+  color: white;
+  font-weight: bold;
+}
+.badge{
+  font-size: 15px;
+  margin-right: 1em;
+}
+#badge1{background-color: #a1c181;}
+#badge2{background-color: #78d5e3;}
+#badge3{background-color: #b493a5;}
 }
 </style>
