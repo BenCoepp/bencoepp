@@ -88,22 +88,20 @@ export default {
   font-weight: bold;
 }
 #myCard1{
-  width: 90%;
+  width: 85%;
   height: 20%;
   margin-bottom: 1em;
-  background-color: transparent;
   border-color: white;
 }
 #myCard2{
-  width: 90%;
+  width: 85%;
   height: 20%;
   margin-bottom: 1em;
 }
 #myCard3{
-  width: 90%;
+  width: 85%;
   height: 20%;
   margin-bottom: 1em;
-  background-color: transparent;
   border-color: white;
 }
 #cardCol{

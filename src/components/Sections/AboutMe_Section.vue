@@ -134,7 +134,7 @@ export default {
   background-color: #3e5a79;
 }
 #resumeCard{
-  width: 100%;
+  width: 90%;
   margin: 2%;
   background-color: transparent;
   border: 0;
