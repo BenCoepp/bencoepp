@@ -2,7 +2,7 @@
   <b-container fluid class="resumeWrapper">
     <b-row>
       <b-col class="col">
-        <img src="@/assets/resumeImage.png" alt="Titel Image" id="titelImg">
+        <img src="@/assets/aboutmeImage.png" alt="Titel Image" id="titelImg">
       </b-col>
       <b-col class="col">
         <b-card
@@ -16,7 +16,10 @@
             reange from myself to school and the like to other things that
             you might find interesting so have a look.
           </b-card-text>
-          <b-tabs content-class="mt-3">
+          <b-tabs content-class="mt-3"
+          active-nav-item-class="font-weight-bold bg-white"
+          active-tab-class="font-weight-bold"
+          >
             <b-tab title="Personal"> 
                 <b-list-group flush>
                     <b-list-group-item class="d-flex justify-content-between align-items-center listItem">
@@ -66,6 +69,37 @@
                 </b-list-group>
             </b-tab>
           </b-tabs>
+          <b-card-text id="titelText">
+            This might not satisfy your craving for information about me, but
+            this needs to suffice. You can learn more about me, what I do and 
+            what I sell on this website, you just need to keep searching for it.
+          </b-card-text>
+          <b-list-group horizontal>
+            <b-list-group-item  class="listItem1">
+              <b-link href="https://github.com/BenCoepp" target="blank" class="itemLink">
+                <b-icon-github id="telCardIcon"></b-icon-github>
+              </b-link>
+            </b-list-group-item>
+            <b-list-group-item  class="listItem1">
+              <b-link href="https://www.instagram.com/ben.coepp" target="blank" class="itemLink">
+                <b-icon-instagram id="telCardIcon"></b-icon-instagram>
+              </b-link>
+            </b-list-group-item>
+            <b-list-group-item  class="listItem1">
+              <b-link href="https://twitter.com/BCoepp" target="blank" class="itemLink">
+                <b-icon-twitter id="telCardIcon"></b-icon-twitter>
+              </b-link>
+            </b-list-group-item>
+            <b-list-group-item  class="listItem1">
+              <b-link href="https://www.youtube.com/channel/UC7BNSmIzVZ9fnw3uMlLj_kw" target="blank" class="itemLink">
+                <b-icon-youtube id="telCardIcon"></b-icon-youtube>
+              </b-link>
+            </b-list-group-item>
+          </b-list-group>
+          <b-card-text id="titelText">
+            If you are interested you can also follow me on Twitter, Instagram,
+            YouTube, and Git-Hub.
+          </b-card-text>
         </b-card>
       </b-col>
     </b-row>
@@ -121,7 +155,7 @@ export default {
   font-weight: bold;
 }
 .pPill{
-    background-color: #fd7e35;
+    background-color: white;
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -129,7 +163,16 @@ export default {
 .listItem{
     font-weight: bold;
     font-size: 20px;
-    color: white;
+    color: #fd7e35;
     background-color: transparent;
+}
+.listItem1{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: transparent;
+    border: 0;
+}
+.itemLink{
+  color: #fd7e35;
 }
 </style>
