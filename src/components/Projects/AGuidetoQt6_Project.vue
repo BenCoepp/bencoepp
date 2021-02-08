@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="projectWrapper">
     <b-row>
-      <b-col cols="8" class="col">
+      <b-col class="col-sm" id="col" sm="12" md="8">
         <b-row id="rightCol">
           <b-card
             tag="article"
@@ -79,7 +79,7 @@
           </b-card>
         </b-row>
       </b-col>
-      <b-col cols="4" class="col">
+      <b-col class="col-sm" id="col" sm="12" md="4">
         <b-row id="leftCol">
           <img src="@/assets/guidetoqt6Cover.png" alt="Project Image" id="projectImg">
         </b-row>
@@ -100,6 +100,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@media only screen and (min-width: 600px) {
 .projectWrapper{
   width: 100%;
   height: 100vh;
@@ -107,7 +108,7 @@ export default {
   margin: 0;
   padding: 0;
 }
-.col{
+#col{
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -187,5 +188,74 @@ export default {
   font-size: 16px;
   text-decoration: none;
 }
+}
+@media only screen and (max-width: 600px) {
+  .projectWrapper{
+  width: 100%;
+  background-color: #3e5a79;
+  margin: 0;
+  padding-bottom: 8em;
+}
+#projectImg{
+  margin: auto;
+  display: block;
+}
+#titelCard{
+  background-color: transparent;
+  border: 0;
+}
+#titel1{
+  margin-bottom: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+#titel2{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fd7e35;
+}
+#titelText{
+  color: white;
+  font-weight: bold;
+}
+.badge{
+  font-size: 20px;
+  margin-right: 1em;
+}
+#badge1{background-color: #a1c181;}
+#badge2{background-color: #78d5e3;}
+#badge3{background-color: #b493a5;}
 
+#downloadResumeBt{
+  background-color: #FD7E35;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+#buyBt{
+  background-color: #FD7E35;
+  width: 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+#learnMoreBt{
+  background-color: #FD7E35;
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+#buttonBox{
+  display: inline-flex;
+}
+#featureList{
+  color: #FD7E35;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+}
 </style>

@@ -137,4 +137,10 @@ export default {
 #badge2{background-color: #78d5e3;}
 #badge3{background-color: #b493a5;}
 }
+#myCard1{
+  margin-bottom: 1em;
+}
+#myCard2{
+  margin-bottom: 1em;
+}
 </style>

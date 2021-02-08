@@ -89,6 +89,7 @@
   }
 </script>
 <style lang="scss">
+@media only screen and (min-width: 600px) {
 #contactForm{
   width: 80%; 
   margin: 10%;
@@ -107,5 +108,27 @@
 }
 #resBt{
   background-color: black;
+}
+}
+@media only screen and (max-width: 600px) {
+  #contactForm{
+  width: 90%; 
+  margin: 5%;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  -webkit-box-shadow: 5px 5px 19px 7px rgba(253,126,53,0.82); 
+  box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82);
+}
+.formButton{
+  margin-right: 1em;
+}
+#subBt{
+  background-color: black;
+}
+#resBt{
+  background-color: black;
+}
 }
 </style>

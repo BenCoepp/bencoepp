@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="contactWrapper">
     <b-row>
-      <b-col>
+      <b-col class="col-sm" id="col" sm="12" md="6">
         <b-row id="headRow">
           <h1 style="color: white; font-weight: bold; font-size: 55px">Let's get in touch</h1>
           <h3 style="color: white; font-weight: bold;">
@@ -30,7 +30,7 @@
         </b-row>
         <b-icon-triangle-fill rotate="-90" id="arrawIcon"></b-icon-triangle-fill>
       </b-col>
-      <b-col id="rightColContact">
+      <b-col class="col-sm" id="rightColContact" sm="12" md="6">
         <b-icon-triangle-fill rotate="-90" id="arrawIcon"></b-icon-triangle-fill>
         <Contact_Form/>
       </b-col>
@@ -53,6 +53,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@media only screen and (min-width: 600px) {
 .contactWrapper{
   height: 100vh;
   background-color: #3e5a79;
@@ -91,5 +92,40 @@ export default {
   margin-top: 4%;
   margin-left: 5%;
   width: 75%;
+}
+}
+@media only screen and (max-width: 600px) {
+.contactWrapper{
+  background-color: #fd7e35;
+  margin: 0;
+  padding-bottom: 8em;
+}
+#col{
+  background-color: #3e5a79;
+}
+.telCard{
+  margin-bottom: 1em;
+  background-color: #3e5a79;
+  color: white;
+  -webkit-box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82); 
+  box-shadow: 5px 5px 19px 7px rgba(62,90,121,0.82);
+}
+#telCardIcon{
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+#rightColContact{
+  background-color: #fd7e35;
+  height: 100%;
+}
+#arrawIcon{
+  display: none;
+}
+#headRow{
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 75%;
+}
 }
 </style>
