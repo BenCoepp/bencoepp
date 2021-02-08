@@ -88,7 +88,11 @@ export default {
 }
 }
 @media only screen and (max-width: 600px) {
-
+.titelWrapper{
+  width: 100%;
+  padding-bottom: 8em;
+  background-color: #3e5a79;
+}
 #col{
   width: 100%;
   background-color: #3e5a79;

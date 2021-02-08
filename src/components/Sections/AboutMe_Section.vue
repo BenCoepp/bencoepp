@@ -182,6 +182,7 @@ export default {
   height: 100vh;
   background-color: #3e5a79;
   margin: 0;
+  padding-bottom: 8em;
 }
 #titelImg{
   display: none;
