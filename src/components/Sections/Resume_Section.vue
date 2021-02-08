@@ -21,7 +21,7 @@
         </b-card>
       </b-col>
       <b-col class="col-sm" id="col" sm="12" md="6">
-        <img src="@/assets/resumeImage.png" alt="Titel Image" id="titelImg">
+        <img src="@/assets/aboutmeImage.png" alt="Resume Image" id="titelImg">
       </b-col>
     </b-row>
   </b-container>

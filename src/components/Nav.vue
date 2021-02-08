@@ -7,8 +7,8 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <router-link to="/about" class="rLink">My Stuff</router-link>
-        <router-link to="/about" class="rLink">Products</router-link>
+        <router-link to="/mystuff" class="rLink">My Stuff</router-link>
+        <router-link to="/mystuff" class="rLink">Products</router-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
