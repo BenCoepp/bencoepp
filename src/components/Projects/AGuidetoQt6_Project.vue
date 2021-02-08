@@ -91,7 +91,7 @@
 <script>
 import AGuidetoQt6_ProblemModal from './AGuidetoQt6_ProblemModal.vue'
 export default {
-  name: "Project 1",
+  name: "AGuidetoQt6",
   components:{
     AGuidetoQt6_ProblemModal
   }

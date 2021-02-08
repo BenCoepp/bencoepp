@@ -2,14 +2,14 @@
     <b-list-group-item class="rootItem">
         <b-container>
             <b-row>
-                <b-col>
+                <b-col class="col-sm" id="col" sm="12" md="4">
                     <img src="require(this.img)" alt="Item Img" id="itemImg">
                 </b-col>
-                <b-col>
+                <b-col class="col-sm" id="col" sm="12" md="4">
                     <h2>{{name}}</h2>
                     <p>{{desc}}</p>
                 </b-col>
-                <b-col>
+                <b-col class="col-sm" id="col" sm="12" md="6">
                     <a href={link}>Get it here</a>
                 </b-col>
             </b-row>
